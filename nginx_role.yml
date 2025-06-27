@@ -1,5 +1,5 @@
 - name: Deploy NGINX using Ansible Role
-  hosts: web_servers
+  hosts: web
   become: yes
   roles:
     - nginx_role

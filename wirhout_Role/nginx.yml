@@ -1,5 +1,5 @@
 - name: Install and Configure NGINX
-  hosts: all
+  hosts: web
   become: yes
   tasks:
 
